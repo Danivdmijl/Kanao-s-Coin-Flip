@@ -16,7 +16,7 @@ flipBtn.addEventListener("click", function() {
 	// After 0.5 seconds, change the coin image to the other side of the coin
 	setTimeout(function() {
 		if (randomNum === 0) {
-			coin.style.backgroundImage = "url('tanjiro.png')";
+			coin.style.backgroundImage = "url('tanjiro.webp')";
 		} else {
 			coin.style.backgroundImage = "url('Akaza.webp')";
 		}
