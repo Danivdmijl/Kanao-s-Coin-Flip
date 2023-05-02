@@ -25,7 +25,7 @@ h1 {
 	flex-direction: column;
 	align-items: center;
 	height: 100vh;
-	width: 100%;
+	width: 60%;
 }
 
 .coin-container {
@@ -39,8 +39,8 @@ h1 {
 }
 
 .coin {
-	width: 15vw;
-	height: 15vw;
+	width: 12vw;
+	height: 12vw;
 	border-radius: 50%;
 	background-color: #ccc;
 	background-image: url("TanjirovsAkaza.avif");
@@ -102,118 +102,57 @@ h1 {
 	}
 }
 
-@media only screen and (max-width: 1453px) {
+
+@media screen and (max-width: 1000px) {
 	h1 {
-		font-size: 6vw;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		font-size: 35px;
+		/* set your desired font size in pixels */
+		font-weight: bold;
+		text-align: center;
+		/* set your desired margin in pixels */
+		color: #fff;
+		text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+		/* set your desired padding in pixels */
 	}
 
-	.coin-container {
-		width: 40rem;
-	}
-
-	.coin {
-		width: 20vw;
-		height: 20vw;
-	}
-
-	#flip-btn {
-		font-size: 3vw;
-	}
-
-}
-
-@media only screen and (min-width: 672px) and (max-width: 1453px) {
-	.coin-container {
-	  width: 50%;
-	}
-	
-	.coin {
-	  width: 25vw;
-	  height: 25vw;
-	}
-  
-	#flip-btn {
-	  font-size: 2vw;
-	  padding: 1vw 2vw;
-	  border-radius: 1vw;
-	}
-  }
-  
-  @media only screen and (min-width: 1454px) {
-	.coin-container {
-	  width: 40%;
-	}
-  
-	.coin {
-	  width: 20vw;
-	  height: 20vw;
-	}
-  
-	#flip-btn {
-	  font-size: 1.5vw;
-	  padding: 1.5vw 3vw;
-	  border-radius: 2vw;
-	}
-  }
-  
-  @media only screen and (max-width: 600px) {
 	.container {
-		height: auto;
-		padding: 2rem 1rem;
-	}
-
-	h1 {
-		font-size: 2.5rem;
-		margin: 1rem 0;
-	}
-
-	.coin-container {
-		width: 80%;
-		height: auto;
 		display: flex;
+		justify-content: center;
 		flex-direction: column;
 		align-items: center;
-		justify-content: center;
-		padding: 1rem;
-	}
-
-	.coin {
-		width: 50vw;
-		height: 50vw;
-		margin-bottom: 3rem;
-	}
-
-	#flip-btn {
-		font-size: 6vw;
-		padding: 1rem 2rem;
-		border-radius: 2rem;
-	}
-}
-
-@media only screen and (max-width: 400px) {
-	.coin-container {
+		height: 100vh;
 		width: 60%;
-		height: 25%;
-		display: flex;
-		align-items: center;
-		justify-content: center;
+		padding: 20px;
+		/* set your desired padding in pixels */
 	}
 
 	.coin {
-		width: 40vw;
-		height: 40vw;
-		margin-bottom: 3rem;
+		width: 120px;
+		/* set your desired width in pixels */
+		height: 120px;
+		/* set your desired height in pixels */
+		border-radius: 50%;
+		background-color: #ccc;
+		background-image: url("TanjirovsAkaza.avif");
+		background-size: cover;
+		background-position: center;
+		margin-bottom: 20px;
+		/* set your desired margin in pixels */
 	}
 
 	#flip-btn {
-		font-size: 7vw;
-		padding: 1.5vw 3vw;
-		border-radius: 2vw;
-	}
-
-	h1{
-		font-size: 5.4rem;
+		padding: 15px 30px;
+		/* set your desired padding in pixels */
+		font-size: 15px;
+		/* set your desired font size in pixels */
+		border: none;
+		border-radius: 20px;
+		background-color: rgb(133, 77, 116);
+		color: #fff;
+		cursor: pointer;
+		min-width: 200px;
+		width: 200px;
+		/* set your desired width in pixels */
 	}
 }
-
-  
