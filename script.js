@@ -18,7 +18,7 @@ flipBtn.addEventListener("click", function() {
 		if (randomNum === 0) {
 			coin.style.backgroundImage = "url('tanjiro.png')";
 		} else {
-			coin.style.backgroundImage = "url('Akaza.jpeg')";
+			coin.style.backgroundImage = "url('Akaza.webp')";
 		}
 	}, 500);
 
@@ -26,9 +26,9 @@ flipBtn.addEventListener("click", function() {
 	setTimeout(function() {
 		coin.classList.remove("flip");
 		if (randomNum === 0) {
-			coin.style.backgroundImage = "url('tanjiro.png')";
+			coin.style.backgroundImage = "url('tanjiro.wbp')";
 		} else {
-			coin.style.backgroundImage = "url('Akaza.jpeg')";
+			coin.style.backgroundImage = "url('Akaza.webp')";
 		}
 		// Enable the button after the animation is complete
 		flipBtn.disabled = false;
