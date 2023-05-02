@@ -4,6 +4,9 @@ Kanao's Flip a Coin is a Flip A Coin based website themed on this scene from the
 
 https://www.youtube.com/watch?v=nN-_ku9T9LE
 
+## Live preview
+https://danivdmijl.github.io/Kanao-s-Coin-Flip/
+
 ## Contact
 
 Discord: Drakuze#8598
