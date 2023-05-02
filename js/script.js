@@ -16,9 +16,9 @@ flipBtn.addEventListener("click", function() {
 	// After 0.5 seconds, change the coin image to the other side of the coin
 	setTimeout(function() {
 		if (randomNum === 0) {
-			coin.style.backgroundImage = "url('tanjiro.png')";
+			coin.style.backgroundImage = "url('../img/tanjiro.png')";
 		} else {
-			coin.style.backgroundImage = "url('Akaza.jpeg')";
+			coin.style.backgroundImage = "url('../img/Akaza.jpeg')";
 		}
 	}, 500);
 
@@ -26,9 +26,9 @@ flipBtn.addEventListener("click", function() {
 	setTimeout(function() {
 		coin.classList.remove("flip");
 		if (randomNum === 0) {
-			coin.style.backgroundImage = "url('tanjiro.png')";
+			coin.style.backgroundImage = "url('../img/tanjiro.png')";
 		} else {
-			coin.style.backgroundImage = "url('Akaza.jpeg')";
+			coin.style.backgroundImage = "url('../img/Akaza.jpeg')";
 		}
 		// Enable the button after the animation is complete
 		flipBtn.disabled = false;
@@ -36,7 +36,7 @@ flipBtn.addEventListener("click", function() {
 });
 
 function playSound() {
-	var audio = new Audio('coin-flip-sound.mp3');
+	var audio = new Audio('../audio/coin-flip-sound.mp3');
 	audio.play();
   }
 

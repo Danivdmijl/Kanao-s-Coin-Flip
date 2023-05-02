@@ -1,5 +1,5 @@
 body {
-	background-image: url("kanao.jpg");
+	background-image: url("../img/kanao.jpg");
 	background-size: cover;
 	background-position: center;
 	overflow: hidden;
@@ -43,7 +43,7 @@ h1 {
 	height: 12vw;
 	border-radius: 50%;
 	background-color: #ccc;
-	background-image: url("TanjirovsAkaza.avif");
+	background-image: url("../img/TanjirovsAkaza.avif");
 	background-size: cover;
 	background-position: center;
 	margin-bottom: 2vw;
@@ -68,37 +68,37 @@ h1 {
 @keyframes flip {
 	0% {
 		transform: rotateX(0deg) rotateY(0deg);
-		background-image: url('tanjiro.png');
+		background-image: url('../img/tanjiro.png');
 	}
 
 	16.7% {
 		transform: rotateX(0deg) rotateY(180deg);
-		background-image: url('Akaza.jpeg');
+		background-image: url('../img/Akaza.jpeg');
 	}
 
 	33.3% {
 		transform: rotateX(180deg) rotateY(360deg);
-		background-image: url('tanjiro.png');
+		background-image: url('../img/tanjiro.png');
 	}
 
 	50% {
 		transform: rotateX(180deg) rotateY(540deg);
-		background-image: url('Akaza.jpeg');
+		background-image: url('../img/Akaza.jpeg');
 	}
 
 	66.7% {
 		transform: rotateX(360deg) rotateY(720deg);
-		background-image: url('tanjiro.png');
+		background-image: url('../img/tanjiro.png');
 	}
 
 	83.3% {
 		transform: rotateX(360deg) rotateY(900deg);
-		background-image: url('Akaza.jpeg');
+		background-image: url('../img/Akaza.jpeg');
 	}
 
 	100% {
 		transform: rotateX(540deg) rotateY(1080deg);
-		background-image: url('tanjiro.png');
+		background-image: url('../img/tanjiro.png');
 	}
 }
 
@@ -134,7 +134,7 @@ h1 {
 		/* set your desired height in pixels */
 		border-radius: 50%;
 		background-color: #ccc;
-		background-image: url("TanjirovsAkaza.avif");
+		background-image: url("../img/TanjirovsAkaza.avif");
 		background-size: cover;
 		background-position: center;
 		margin-bottom: 20px;
