@@ -26,7 +26,7 @@ flipBtn.addEventListener("click", function() {
 	setTimeout(function() {
 		coin.classList.remove("flip");
 		if (randomNum === 0) {
-			coin.style.backgroundImage = "url('tanjiro.wbp')";
+			coin.style.backgroundImage = "url('tanjiro.webp')";
 		} else {
 			coin.style.backgroundImage = "url('Akaza.webp')";
 		}
