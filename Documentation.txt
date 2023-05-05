@@ -1,9 +1,16 @@
 This is a basic HTML, CSS, and JavaScript code for a "Flip a Coin" game with animation.
 
-The HTML code contains a title, meta tags, links to external style sheets and image files, and a container with a heading and a coin container. The coin container includes a coin element and a button element.
+The HTML code contains a title, meta tags, links to external style sheets and image files, 
+and a container with a heading and a coin container. The coin container includes a coin element and a button element.
 
-The JavaScript code uses the document.getElementById method to get the coin and button elements, adds a click event listener to the button, generates a random number between 0 and 1, disables the button during the animation, adds a class to the coin to start the flipping animation, changes the coin image to the other side of the coin after 0.5 seconds, removes the class and sets the coin background image based on the random number after 1 second (the duration of the animation), and enables the button after the animation is complete. The JavaScript code also includes a function to play a coin flip sound.
+The JavaScript code uses the document.getElementById method to get the coin and button elements, 
+adds a click event listener to the button, generates a random number between 0 and 1, 
+disables the button during the animation, adds a class to the coin to start the flipping animation, 
+changes the coin image to the other side of the coin after 0.5 seconds, 
+removes the class and sets the coin background image based on the random number after 1 second (the duration of the animation), 
+and enables the button after the animation is complete. The JavaScript code also includes a function to play a coin flip sound.
 
-The CSS code sets the background image, font, size, weight, color, and shadow of the heading, the style, size, color, and shadow of the container and coin container, the style, size, color, and shadow of the button, and the animation properties of the coin.
+The CSS code sets the background image, font, size, weight, color, and shadow of the heading, the style, size, color, and shadow of the container and coin container, 
+the style, size, color, and shadow of the button, and the animation properties of the coin.
 
 Overall, this code creates a simple and fun "Flip a Coin" game with animation and sound.
