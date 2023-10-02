@@ -10,7 +10,7 @@ https://danivdmijl.github.io/Kanao-s-Coin-Flip/
 
 ## Contact
 
-Discord: Drakuze#8598
+Discord: Drakuze
 
 Mail: Danivdmijl@outlook.com
 
